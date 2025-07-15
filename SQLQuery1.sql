@@ -1,6 +1,6 @@
-create database Developer122
+create database Developer
 
-use Developer122
+use Developer
 
 create table TBLEMPLOYEE
    (
@@ -497,7 +497,7 @@ SELECT * FROM TBLOrders
 
 create role my_custom_role
 
-GRANT SELECT, INSERT ON DATABASE::developer122 TO my_custom_role;
+GRANT SELECT, INSERT ON DATABASE::developer TO my_custom_role;
 
 GRANT SELECT, INSERT ON SCHEMA::dbo TO my_custom_role;
 
