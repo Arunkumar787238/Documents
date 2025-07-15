@@ -1,4 +1,4 @@
-use Developer122
+use Developer
 
 create table TBLCustomer1
 (
